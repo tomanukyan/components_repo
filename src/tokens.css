@@ -1,0 +1,187 @@
+/**
+ * Design Tokens
+ * Auto-generated from Figma design tokens
+ */
+
+:root {
+  /* ==========================================================================
+     COLORS
+     ========================================================================== */
+
+  /* --------------------------------------------------------------------------
+     Green Palette
+     -------------------------------------------------------------------------- */
+  --color-green-10: #04170A;
+  --color-green-20: #082E13;
+  --color-green-30: #105C27;
+  --color-green-40: #55E581;  /* Main */
+  --color-green-40-alpha-20: rgba(85, 229, 129, 0.2);
+  --color-green-40-alpha-30: rgba(85, 229, 129, 0.3);
+  --color-green-50: #77EA9A;
+  --color-green-60: #99EFB3;
+  --color-green-70: #BBF5CD;
+  --color-green-80: #CCF7D9;
+  --color-green-90: #DDFAE6;
+  --color-green-90-alpha-60: rgba(221, 250, 230, 0.6);
+  --color-green-95: #EEFCF2;
+  --color-green-98: #F6FEF9;
+
+  /* --------------------------------------------------------------------------
+     Violet Palette
+     -------------------------------------------------------------------------- */
+  --color-violet-10: #150C24;
+  --color-violet-20: #23133C;
+  --color-violet-30: #381F60;
+  --color-violet-40: #8B4DEF;  /* Main */
+  --color-violet-40-alpha-20: rgba(139, 77, 239, 0.2);
+  --color-violet-40-alpha-30: rgba(139, 77, 239, 0.3);
+  --color-violet-50: #A271F2;
+  --color-violet-60: #B994F5;
+  --color-violet-70: #D1B8F9;
+  --color-violet-80: #E8DBFC;
+  --color-violet-90: #F3EDFD;
+  --color-violet-95: #F9F6FE;
+  --color-violet-98: #FDFBFF;
+
+  /* --------------------------------------------------------------------------
+     Orange Palette
+     -------------------------------------------------------------------------- */
+  --color-orange-10: #191004;
+  --color-orange-20: #312008;
+  --color-orange-30: #946118;
+  --color-orange-40: #F6A228;  /* Main */
+  --color-orange-40-alpha-20: rgba(246, 162, 40, 0.2);
+  --color-orange-40-alpha-30: rgba(246, 162, 40, 0.3);
+  --color-orange-50: #F8B553;
+  --color-orange-60: #FAC77E;
+  --color-orange-70: #FBDAA9;
+  --color-orange-80: #FDECD4;
+  --color-orange-90: #FEF4E5;
+  --color-orange-95: #FEF8F0;
+  --color-orange-98: #FFFBF6;
+
+  /* --------------------------------------------------------------------------
+     Red Palette
+     -------------------------------------------------------------------------- */
+  --color-red-10: #170309;
+  --color-red-20: #2E0612;
+  --color-red-30: #5C0C24;
+  --color-red-40: #E61D5B;  /* Main */
+  --color-red-50: #EB4A7C;
+  --color-red-60: #F0779D;
+  --color-red-70: #F5A5BD;
+  --color-red-80: #FAD2DE;
+  --color-red-90: #FCE8EF;
+  --color-red-95: #FEF4F7;
+  --color-red-98: #FFFAFC;
+
+  /* --------------------------------------------------------------------------
+     Neutral / Grey Palette
+     -------------------------------------------------------------------------- */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-white-alpha-95: rgba(255, 255, 255, 0.95);
+  --color-white-alpha-60: rgba(255, 255, 255, 0.6);
+  --color-transparent: rgba(0, 0, 0, 0);
+
+  --color-neutral-10: #030C16;
+  --color-neutral-10-alpha-95: rgba(3, 12, 22, 0.95);
+  --color-neutral-10-alpha-90: rgba(3, 12, 22, 0.9);
+  --color-neutral-10-alpha-60: rgba(3, 12, 22, 0.6);
+  --color-neutral-10-alpha-40: rgba(3, 12, 22, 0.4);
+  --color-neutral-10-alpha-20: rgba(3, 12, 22, 0.2);
+  --color-neutral-10-alpha-10: rgba(3, 12, 22, 0.1);  /* Shadow */
+
+  --color-neutral-20: #041321;
+  --color-neutral-20-alpha-20: rgba(4, 19, 33, 0.2);
+  --color-neutral-20-alpha-95: rgba(4, 19, 33, 0.95);
+
+  --color-neutral-30: #06192C;
+  --color-neutral-40: #071F37;  /* Main */
+  --color-neutral-50: #3B465C;
+  --color-neutral-60: #6D7788;
+  --color-neutral-70: #9DA5AF;
+  --color-neutral-80: #CDD2D7;
+  --color-neutral-90: #E6E9EB;
+  --color-neutral-95: #F0F2F3;
+  --color-neutral-98: #F8F8F9;
+
+  /* ==========================================================================
+     SPACING
+     ========================================================================== */
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-36: 36px;
+  --space-40: 40px;
+  --space-42: 42px;
+  --space-44: 44px;
+  --space-48: 48px;
+  --space-52: 52px;
+  --space-56: 56px;
+  --space-60: 60px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-88: 88px;
+
+  /* ==========================================================================
+     SIZING
+     ========================================================================== */
+  --size-2: 2px;
+  --size-4: 4px;
+  --size-6: 6px;
+  --size-8: 8px;
+  --size-10: 10px;
+  --size-12: 12px;
+  --size-14: 14px;
+  --size-16: 16px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-28: 28px;
+  --size-32: 32px;
+  --size-36: 36px;
+  --size-40: 40px;
+  --size-42: 42px;
+  --size-44: 44px;
+  --size-48: 48px;
+  --size-52: 52px;
+  --size-56: 56px;
+  --size-60: 60px;
+  --size-64: 64px;
+  --size-72: 72px;
+  --size-80: 80px;
+  --size-88: 88px;
+  --size-full: 999px;
+
+  /* ==========================================================================
+     BORDER RADIUS
+     ========================================================================== */
+  --radius-2: 2px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 999px;
+
+  /* ==========================================================================
+     STROKES / BORDERS
+     ========================================================================== */
+  --stroke-sm: 1px;
+  --stroke-1-5: 1.5px;
+  --stroke-1-8: 1.8px;
+  --stroke-md: 2px;
+  --stroke-lg: 4px;
+}
