@@ -1,0 +1,233 @@
+/**
+ * Semantic Design Tokens - Dark Mode
+ * These tokens reference primitive tokens from tokens.css
+ * Apply via [data-theme="dark"] or @media (prefers-color-scheme: dark)
+ */
+
+@import './tokens.css';
+
+[data-theme="dark"],
+.dark {
+  /* ==========================================================================
+     PRIMARY (Green)
+     Brand primary color for main actions and focus states
+     ========================================================================== */
+
+  /* Primary Surfaces */
+  --primary-surface-default: var(--color-green-40);
+  --primary-surface-on-primary: var(--color-green-20);
+  --primary-surface-subtle: var(--color-green-20);          /* Light: g90 → Dark: g20 */
+  --primary-surface-hover: var(--color-green-50);
+  --primary-surface-hover-subtle: var(--color-green-30);    /* Light: g80 → Dark: g30 */
+  --primary-surface-background: var(--color-green-10);      /* Light: g95 → Dark: g10 */
+  --primary-surface-shade-60: var(--color-green-60);
+  --primary-surface-shade-30: var(--color-green-30);
+  --primary-surface-navbar: var(--color-green-20);          /* Light: g90 → Dark: g20 */
+
+  /* Primary Text */
+  --primary-text-default: var(--color-green-50);            /* Light: g40 → Dark: g50 */
+  --primary-text-visible: var(--color-green-80);            /* Light: g30 → Dark: g80 */
+  --primary-text-mid-visible: var(--color-green-70);        /* Light: g50 → Dark: g70 */
+  --primary-text-less-visible: var(--color-green-90);
+  --primary-text-more-visible: var(--color-green-95);       /* Light: g20 → Dark: g95 */
+  --primary-text-label: var(--color-green-70);              /* Light: g40 → Dark: g70 */
+
+  /* Primary Border */
+  --primary-border-default: var(--color-green-50);          /* Light: g40 → Dark: g50 */
+  --primary-border-hover: var(--color-green-60);            /* Light: g50 → Dark: g60 */
+  --primary-border-visible: var(--color-green-60);          /* Light: g30 → Dark: g60 */
+  --primary-border-effect: var(--color-green-30);           /* Light: g90 → Dark: g30 */
+  --primary-border-effect-60: var(--color-green-90-alpha-60);
+  --primary-border-navbar: var(--color-green-30);
+
+  /* Primary Icons */
+  --primary-icon-default: var(--color-green-50);            /* Light: g40 → Dark: g50 */
+  --primary-icon-visible: var(--color-green-70);            /* Light: g30 → Dark: g70 */
+  --primary-icon-mid-visible: var(--color-green-60);        /* Light: g50 → Dark: g60 */
+  --primary-icon-less-visible: var(--color-green-30);       /* Light: g70 → Dark: g30 */
+  --primary-icon-navbar: var(--color-green-70);             /* Light: g30 → Dark: g70 */
+
+  /* Primary Effects */
+  --primary-effect-alpha-20: var(--color-green-40-alpha-20);
+  --primary-effect-alpha-30: var(--color-green-40-alpha-30);
+
+  /* ==========================================================================
+     SECONDARY (Violet)
+     Secondary brand color for accents and alternative actions
+     ========================================================================== */
+
+  /* Secondary Surfaces */
+  --secondary-surface-default: var(--color-violet-40);
+  --secondary-surface-on-secondary: var(--color-white);
+  --secondary-surface-subtle: var(--color-violet-20);       /* Light: v90 → Dark: v20 */
+  --secondary-surface-hover: var(--color-violet-50);
+  --secondary-surface-hover-subtle: var(--color-violet-30); /* Light: v80 → Dark: v30 */
+  --secondary-surface-background: var(--color-violet-10);   /* Light: v95 → Dark: v10 */
+  --secondary-surface-shade-60: var(--color-violet-60);
+  --secondary-surface-shade-30: var(--color-violet-30);
+  --secondary-surface-shade-20: var(--color-violet-20);
+
+  /* Secondary Text */
+  --secondary-text-default: var(--color-violet-50);         /* Light: v40 → Dark: v50 */
+  --secondary-text-visible: var(--color-violet-80);         /* Light: v30 → Dark: v80 */
+  --secondary-text-mid-visible: var(--color-violet-70);     /* Light: v50 → Dark: v70 */
+  --secondary-text-less-visible: var(--color-violet-80);
+  --secondary-text-label: var(--color-violet-70);           /* Light: v40 → Dark: v70 */
+
+  /* Secondary Border */
+  --secondary-border-default: var(--color-violet-50);       /* Light: v40 → Dark: v50 */
+  --secondary-border-hover: var(--color-violet-60);         /* Light: v50 → Dark: v60 */
+  --secondary-border-visible: var(--color-violet-60);       /* Light: v30 → Dark: v60 */
+  --secondary-border-effect: var(--color-violet-30);        /* Light: v90 → Dark: v30 */
+
+  /* Secondary Icons */
+  --secondary-icon-default: var(--color-violet-50);         /* Light: v40 → Dark: v50 */
+  --secondary-icon-mid-visible: var(--color-violet-60);     /* Light: v50 → Dark: v60 */
+  --secondary-icon-visible: var(--color-violet-70);         /* Light: v30 → Dark: v70 */
+
+  /* Secondary Lines */
+  --secondary-line-default: var(--color-violet-50);         /* Light: v40 → Dark: v50 */
+
+  /* Secondary Effects */
+  --secondary-effect-alpha-20: var(--color-violet-40-alpha-20);
+  --secondary-effect-alpha-30: var(--color-violet-40-alpha-30);
+
+  /* ==========================================================================
+     TERTIARY (Orange)
+     Tertiary color for warnings, highlights, and special callouts
+     ========================================================================== */
+
+  /* Tertiary Surfaces */
+  --tertiary-surface-default: var(--color-orange-40);
+  --tertiary-surface-on-tertiary: var(--color-orange-20);
+  --tertiary-surface-subtle: var(--color-orange-20);        /* Light: o90 → Dark: o20 */
+  --tertiary-surface-hover: var(--color-orange-50);
+  --tertiary-surface-hover-subtle: var(--color-orange-30);  /* Light: o80 → Dark: o30 */
+  --tertiary-surface-background: var(--color-orange-10);    /* Light: o95 → Dark: o10 */
+  --tertiary-surface-shade-60: var(--color-orange-60);
+  --tertiary-surface-shade-30: var(--color-orange-30);
+
+  /* Tertiary Text */
+  --tertiary-text-default: var(--color-orange-80);          /* Light: o30 → Dark: o80 */
+  --tertiary-text-visible: var(--color-orange-80);          /* Light: o30 → Dark: o80 */
+  --tertiary-text-mid-visible: var(--color-orange-70);      /* Light: o50 → Dark: o70 */
+  --tertiary-text-label: var(--color-orange-70);            /* Light: o40 → Dark: o70 */
+
+  /* Tertiary Border */
+  --tertiary-border-default: var(--color-orange-50);        /* Light: o40 → Dark: o50 */
+  --tertiary-border-hover: var(--color-orange-60);          /* Light: o50 → Dark: o60 */
+  --tertiary-border-visible: var(--color-orange-60);        /* Light: o30 → Dark: o60 */
+  --tertiary-border-effect: var(--color-orange-30);         /* Light: o90 → Dark: o30 */
+
+  /* Tertiary Icons */
+  --tertiary-icon-default: var(--color-orange-50);          /* Light: o40 → Dark: o50 */
+  --tertiary-icon-shade-50: var(--color-orange-40);         /* Light: o50 → Dark: o40 */
+  --tertiary-icon-visible: var(--color-orange-70);          /* Light: o30 → Dark: o70 */
+
+  /* Tertiary Effects */
+  --tertiary-effect-alpha-20: var(--color-orange-40-alpha-20);
+  --tertiary-effect-alpha-30: var(--color-orange-40-alpha-30);
+
+  /* ==========================================================================
+     NEUTRAL (Grey)
+     Neutral colors for backgrounds, text, and UI chrome
+     ========================================================================== */
+
+  /* Neutral Surfaces */
+  --neutral-surface-page: var(--color-neutral-10);          /* Light: white → Dark: n10 */
+  --neutral-surface-background: var(--color-neutral-20);    /* Light: n98 → Dark: n20 */
+  --neutral-surface-subtle: var(--color-neutral-30);        /* Light: n95 → Dark: n30 */
+  --neutral-surface-hover: var(--color-neutral-40);         /* Light: n90 → Dark: n40 */
+  --neutral-surface-disabled: var(--color-neutral-30);      /* Light: n90 → Dark: n30 */
+  --neutral-surface-negative: var(--color-white);           /* Light: n20 → Dark: white */
+  --neutral-surface-box: var(--color-neutral-20);           /* Light: white → Dark: n20 */
+  --neutral-surface-input: var(--color-neutral-10);         /* Light: white → Dark: n10 */
+  --neutral-surface-shade-50: var(--color-neutral-90);      /* Light: n50 → Dark: n90 */
+  --neutral-surface-shade-80: var(--color-neutral-50);      /* Light: n80 → Dark: n50 */
+  --neutral-surface-shade-40: var(--color-neutral-95);      /* Light: n40 → Dark: n95 */
+
+  /* Non-changeable surfaces (don't switch in dark mode) */
+  --neutral-surface-fixed-dark: var(--color-neutral-20);
+  --neutral-surface-fixed-light: var(--color-white);
+
+  /* Neutral Text */
+  --neutral-text-title: var(--color-white);                 /* Light: n20 → Dark: white */
+  --neutral-text-subtitle: var(--color-white);              /* Light: n20 → Dark: white */
+  --neutral-text-body: var(--color-neutral-90);             /* Light: n40 → Dark: n90 */
+  --neutral-text-body-negative: var(--color-neutral-40);    /* Light: n90 → Dark: n40 */
+  --neutral-text-caption: var(--color-neutral-70);          /* Light: n60 → Dark: n70 */
+  --neutral-text-caption-negative: var(--color-neutral-60); /* Light: n70 → Dark: n60 */
+  --neutral-text-negative: var(--color-neutral-20);         /* Light: white → Dark: n20 */
+  --neutral-text-navbar: var(--color-neutral-70);           /* Light: n50 → Dark: n70 */
+
+  /* Non-changeable text (don't switch in dark mode) */
+  --neutral-text-fixed-dark: var(--color-neutral-20);
+  --neutral-text-fixed-light: var(--color-white);
+
+  /* Neutral Border */
+  --neutral-border-default: var(--color-neutral-60);        /* Light: n70 → Dark: n60 */
+  --neutral-border-visible: var(--color-neutral-70);        /* Light: n50 → Dark: n70 */
+  --neutral-border-disabled: var(--color-neutral-50);       /* Light: n80 → Dark: n50 */
+  --neutral-border-subtle: var(--color-transparent);        /* Light: n90 → Dark: transparent */
+  --neutral-border-less-visible: var(--color-neutral-40);   /* Light: n90 → Dark: n40 */
+
+  /* Non-changeable border (don't switch in dark mode) */
+  --neutral-border-fixed-dark: var(--color-neutral-20);
+  --neutral-border-fixed-light: var(--color-white);
+
+  /* Neutral Lines (dividers, separators) */
+  --neutral-line-default: var(--color-neutral-40);          /* Light: n90 → Dark: n40 */
+  --neutral-line-visible: var(--color-neutral-60);          /* Light: n70 → Dark: n60 */
+  --neutral-line-on-background: var(--color-neutral-30);    /* Light: n95 → Dark: n30 */
+  --neutral-line-on-subtle: var(--color-neutral-50);        /* Light: n80 → Dark: n50 */
+  --neutral-line-negative: var(--color-neutral-95);         /* Light: n10 → Dark: n95 */
+  --neutral-line-white: var(--color-white);
+
+  /* Neutral Icons */
+  --neutral-icon-default: var(--color-white);               /* Light: n20 → Dark: white */
+  --neutral-icon-shade-70: var(--color-neutral-60);         /* Light: n70 → Dark: n60 */
+  --neutral-icon-shade-50: var(--color-neutral-70);         /* Light: n50 → Dark: n70 */
+  --neutral-icon-shade-40: var(--color-neutral-90);         /* Light: n40 → Dark: n90 */
+  --neutral-icon-negative: var(--color-neutral-20);         /* Light: white → Dark: n20 */
+
+  /* Non-changeable icons (don't switch in dark mode) */
+  --neutral-icon-fixed-dark: var(--color-neutral-20);
+  --neutral-icon-fixed-light: var(--color-white);
+
+  /* Neutral Effects */
+  --neutral-effect-header: var(--color-neutral-10-alpha-95); /* Light: white-95 → Dark: n10-95 */
+  --neutral-effect-badge: var(--color-neutral-10-alpha-60);  /* Light: white-60 → Dark: n10-60 */
+  --neutral-effect-scrim: var(--color-neutral-10-alpha-60);  /* Light: n10-40 → Dark: n10-60 */
+  --neutral-effect-shadow: var(--color-neutral-10-alpha-20);
+  --neutral-effect-n10-20: var(--color-neutral-10-alpha-20);
+  --neutral-effect-n10-40: var(--color-neutral-10-alpha-40);
+  --neutral-effect-main-20: var(--color-neutral-20-alpha-20);
+
+  /* ==========================================================================
+     ERROR (Red)
+     Error and destructive action colors
+     ========================================================================== */
+
+  /* Error Surfaces */
+  --error-surface-default: var(--color-red-40);
+  --error-surface-on-error: var(--color-white);
+  --error-surface-subtle: var(--color-red-20);              /* Light: r90 → Dark: r20 */
+  --error-surface-hover: var(--color-red-50);
+  --error-surface-hover-subtle: var(--color-red-30);        /* Light: r80 → Dark: r30 */
+  --error-surface-background: var(--color-red-10);          /* Light: r95 → Dark: r10 */
+  --error-surface-shade-60: var(--color-red-60);
+  --error-surface-shade-30: var(--color-red-30);
+
+  /* Error Text */
+  --error-text-default: var(--color-red-50);                /* Light: r40 → Dark: r50 */
+  --error-text-visible: var(--color-red-70);                /* Light: r30 → Dark: r70 */
+
+  /* Error Border */
+  --error-border-default: var(--color-red-50);              /* Light: r40 → Dark: r50 */
+  --error-border-hover: var(--color-red-60);                /* Light: r50 → Dark: r60 */
+  --error-border-visible: var(--color-red-60);              /* Light: r30 → Dark: r60 */
+  --error-border-effect: var(--color-red-30);               /* Light: r90 → Dark: r30 */
+
+  /* Error Icons */
+  --error-icon-default: var(--color-red-50);                /* Light: r40 → Dark: r50 */
+}
