@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <h1>Vue 3 + Element Plus</h1>
+    <ComponentShowcase />
   </div>
 </template>
 
 <script setup>
+import ComponentShowcase from './examples/ComponentShowcase.vue'
 </script>
 
-<style scoped>
+<style>
 #app {
-  text-align: center;
-  padding: 2rem;
+  min-height: 100vh;
+  background-color: var(--el-bg-color-page);
 }
 </style>
